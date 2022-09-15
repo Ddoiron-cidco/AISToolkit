@@ -73,6 +73,8 @@ else
     [Service]
     Type=simple
     ExecStart="/usr/local/bin/AIS-catcher -v -u $ais_ip $ais_port -u $dispatcher_ip $dispatcher_port"
+    Restart=always
+    RestartSec=1
     [Install]
     WantedBy=multi-user.target
     EOF'
@@ -93,6 +95,8 @@ else
 	[Service]
 	Type=simple
 	ExecStart=/bin/python3 /home/ubuntu/AISToolkit/to_ais.py $db_host $db_usr $db_pswd $db_name $ais_ip $ais_port 
+  Restart=always
+  RestartSec=1
 	[Install]
 	WantedBy=multi-user.target
 	EOF2'
