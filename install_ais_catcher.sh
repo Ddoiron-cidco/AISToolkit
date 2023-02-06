@@ -72,7 +72,7 @@ else
     Description=Launch AIS-catcher on boot.
     [Service]
     Type=simple
-    ExecStart="/usr/local/bin/AIS-catcher -v -u $ais_ip $ais_port -u $dispatcher_ip $dispatcher_port"
+    ExecStart="/usr/local/bin/AIS-catcher -N 8080 -v -u $ais_ip $ais_port -u $dispatcher_ip $dispatcher_port"
     Restart=always
     RestartSec=1
     [Install]
