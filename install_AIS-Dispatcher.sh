@@ -25,7 +25,8 @@ else
   echo "[+] Install and compile libssl.so.1.1"
   cd ~/
   sudo apt update
-  sudo apt install -y bzip2 make gcc g++ lib6-dev-arm64*
+  sudo apg upgrade
+  sudo apt install -y bzip2 make gcc g++ libc6-dev-arm64*
   wget https://www.openssl.org/source/openssl-1.1.1o.tar.gz
   tar -zxvf openssl-1.1.1o.tar.gz
   cd openssl-1.1.1o
