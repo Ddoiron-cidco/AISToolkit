@@ -72,7 +72,7 @@ else
     Description=Launch AIS-catcher on boot.
     [Service]
     Type=simple
-    ExecStart="/usr/local/bin/AIS-catcher -N 8080 -v -u $ais_ip $ais_port -u $dispatcher_ip $dispatcher_port"
+    ExecStart="/usr/local/bin/AIS-catcher -N 8080 STATION CIDCO-AIS STATION_LINK http://cidco.ca share_loc on lat 48.4487543117 lon -68.5323778268 -u $ais_ip $ais_port -u $dispatcher_ip $dispatcher_port"
     Restart=always
     RestartSec=1
     [Install]
