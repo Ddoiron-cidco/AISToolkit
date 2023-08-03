@@ -9,11 +9,6 @@ Ais tool kit is a project developped by CIDCO in Rimouski to be able to collect 
 2. Clone the github repository : git clone https://github.com/CIDCO-dev/AISToolKit
 3. Launch the installation script : ./install_ais_catcher
 
-### Installing ais dispatcher on a server (or a VM)
-1. Clone the github repository : git clone https://github.com/CIDCO-dev/AISToolKit
-2. ./install_ais_dispatcher
-
-
 
 
 
