@@ -1,7 +1,7 @@
 # AIS Tool Kit 
 ## What is AIS tool kit   
 
-Ais tool kit is a project developped by CIDCO in Rimouski to be able to collect data (NMEA messages) from boats navigating on the St Lawrence River using a Raspberry Pi and an antenna we builded ourselves. The first part of this README will be devoted to the software implementation an the second part to the [instructions](https://github.com/Jacobb13/AISToolkit/blob/main/Hardware/README.md) on how to build the antenna.  
+Ais tool kit is a project developped by CIDCO in Rimouski to be able to collect data (NMEA messages) from boats navigating on the St Lawrence River using a Raspberry Pi and an antenna we builded ourselves. The first part of this README will be devoted to the software implementation an the second part to the [instructions](https://github.com/cidco-dev/AISToolkit/blob/main/Hardware/README.md) on how to build the antenna.  
 
 ## Software implementation 
 ### Installing ais catcher on a Raspberry Pi 3
@@ -19,6 +19,6 @@ Ais tool kit is a project developped by CIDCO in Rimouski to be able to collect 
 
 ###  Building the antenna  
 
-Here are the [instructions](https://github.com/Jacobb13/AISToolkit/blob/main/Hardware/README.md) to build your own antenna !
+Here are the [instructions](https://github.com/cidco-devAISToolkit/blob/main/Hardware/README.md) to build your own antenna !
 
 
