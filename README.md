@@ -19,6 +19,6 @@ Ais tool kit is a project developped by CIDCO in Rimouski to be able to collect 
 
 ###  Building the antenna  
 
-Here are the [instructions](https://github.com/cidco-devAISToolkit/blob/main/Hardware/README.md) to build your own antenna !
+Here are the [instructions](https://github.com/cidco-dev/AISToolkit/blob/main/Hardware/README.md) to build your own antenna !
 
 
