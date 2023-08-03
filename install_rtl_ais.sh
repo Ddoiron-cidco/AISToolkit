@@ -65,6 +65,8 @@ else
 	[Service]
 	Type=simple
 	ExecStart=/home/ubuntu/rtl-ais/rtl_ais -n -T -h $rtl_ip -p $rtl_port 
+  Restart=always
+  RestartSec=1
 	[Install]
 	WantedBy=multi-user.target
 	EOF'
@@ -86,6 +88,8 @@ else
 	[Service]
 	Type=simple
 	ExecStart=/bin/python3 /home/ubuntu/AISToolkit/to_ais.py $db_host $db_usr $db_pswd $db_name $rtl_ip $rtl_port
+  Restart=always
+  RestartSec=1
 	[Install]
 	WantedBy=multi-user.target
 	EOF2'
